@@ -1,0 +1,45 @@
+main {
+   max-width: 1280px;
+   margin: 0 auto;
+   width: 95%;
+}
+
+.register-heading {
+   font-size: var(--text-h4);
+   color: var(--secondary-base);
+   font-weight: 600;
+   text-align: center;
+   margin-bottom: 2.5rem;
+}
+
+.register-form {
+   display: grid;
+   max-width: 50rem;
+   width: 100%;
+   margin: 0 auto;
+   gap: 2rem;
+   justify-content: center;
+   padding: 10rem 5rem;
+   border-radius: 25px;
+   box-shadow: 0px 0px 5px var(--secondary-tint);
+}
+
+.register-form div {
+   display: flex;
+   justify-content: space-between;
+   gap: 2rem;
+   align-items: center;
+}
+
+.register-form label {
+   font-size: var(--text-s);
+}
+
+#user-name, #password, #email {
+   width: 20rem;
+   height: 3rem;
+}
+
+#remember-me {
+   width: 3rem;
+}
